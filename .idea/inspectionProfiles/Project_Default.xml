@@ -1,0 +1,70 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredPackages">
+        <list>
+          <option value="h5py" />
+          <option value="aiofiles" />
+          <option value="aniso8601" />
+          <option value="blinker" />
+          <option value="certifi" />
+          <option value="dhcplib" />
+          <option value="dnslib" />
+          <option value="Flask" />
+          <option value="Flask-RESTful" />
+          <option value="isc-dhcp-leases" />
+          <option value="itsdangerous" />
+          <option value="jwt" />
+          <option value="netifaces" />
+          <option value="ping3" />
+          <option value="pygdbmi" />
+          <option value="PyQt5" />
+          <option value="PyQt5_sip" />
+          <option value="Reflector" />
+          <option value="scapy" />
+          <option value="sentry-sdk" />
+          <option value="six" />
+          <option value="tabulate" />
+          <option value="TBB" />
+          <option value="ufw" />
+          <option value="urwid" />
+          <option value="wcwidth" />
+          <option value="Werkzeug" />
+          <option value="wifipumpkin3" />
+          <option value="wifite" />
+          <option value="argcomplete" />
+          <option value="attrs" />
+          <option value="autocommand" />
+          <option value="cffi" />
+          <option value="charset-normalizer" />
+          <option value="click" />
+          <option value="cryptography" />
+          <option value="dbus-python" />
+          <option value="filelock" />
+          <option value="idna" />
+          <option value="jaraco.collections" />
+          <option value="jaraco.context" />
+          <option value="jaraco.functools" />
+          <option value="jaraco.text" />
+          <option value="Jinja2" />
+          <option value="loguru" />
+          <option value="MarkupSafe" />
+          <option value="more-itertools" />
+          <option value="numpy" />
+          <option value="packaging" />
+          <option value="platformdirs" />
+          <option value="psutil" />
+          <option value="pycparser" />
+          <option value="PyGObject" />
+          <option value="pytz" />
+          <option value="requests" />
+          <option value="smbus" />
+          <option value="tbb" />
+          <option value="urllib3" />
+          <option value="wheel" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
