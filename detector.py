@@ -6,12 +6,17 @@ class ObjectDetector:
 
     def detect(self, frame):
         results = self.model(frame)
-        labels = []
+        detections = []
 
         for r in results:
             for box in r.boxes:
                 cls = int(box.cls[0])
                 label = self.model.names[cls]
-                labels.append(label)
+                x1, y1, x2, y2 = map(int, box.xyxy[0])
 
-        return labels
+                detections.append({
+                    "label": label,
+                    "box": (x1, y1, x2, y2)
+                })
+
+        return detections
