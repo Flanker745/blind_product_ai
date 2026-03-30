@@ -71,6 +71,11 @@ cd blind_product_ai
 ```
 pip install -r requirements.txt
 ```
+### 3. ⚙️ PyTorch Installation (CPU Users)
+
+```
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+```
 
 ---
 
