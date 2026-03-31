@@ -4,9 +4,9 @@
 ## 👨‍🎓 Student Details
 - **Name:** Pradeep Nain
 - **GitHub:** https://github.com/Flanker745
-- **Branch:** CSE (AI/ML)  
-- **Year:** 1st Year  
-- **University:** VIT Bhopal University  
+- **Branch:** CSE (AI/ML)
+- **Year:** 1st Year
+- **University:** VIT Bhopal University
 
 ---
 

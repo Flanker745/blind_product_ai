@@ -12,7 +12,6 @@ class Speaker:
     def speak(self, text):
         current_time = time.time()
 
-        # Speak only if new object OR after cooldown
         if text != self.last_spoken or (current_time - self.last_time) > self.cooldown:
             self.engine.say(text)
             self.engine.runAndWait()
