@@ -4,7 +4,7 @@ import time
 class Speaker:
     def __init__(self):
         self.engine = pyttsx3.init()
-        self.engine.setProperty('rate', 150)   # slower speech
+        self.engine.setProperty('rate', 150)
         self.last_spoken = ""
         self.last_time = 0
         self.cooldown = 3  # seconds
